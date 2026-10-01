@@ -245,4 +245,4 @@ def generate_laya_dataset(output_path: str, num_samples: int = 100):
 
 if __name__ == "__main__":
     # We use a smaller number here to demonstrate since it runs on local CPU/GPU
-    generate_laya_dataset("data/teacher_dataset_laya.jsonl", num_samples=5000)
+    generate_laya_dataset("data/teacher_dataset_laya.jsonl", num_samples=15000)
